@@ -1,0 +1,9 @@
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\bin\Debug\Model.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\bin\Debug\Model.pdb
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\bin\Debug\EntityFramework.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\bin\Debug\EntityFramework.xml
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\obj\Debug\Model.dll
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\obj\Debug\Model.pdb
+D:\Mi Trabajo\Tutoriales\asp.net-mvc\Facturador\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

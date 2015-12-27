@@ -1,0 +1,35 @@
+﻿@model List<Model.Entities.Comprobante>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Ejemplo de facturador con ASP.NET MVC</h1>
+</div>
+
+<h2 class="page-header">
+    <a class="btn btn-primary pull-right" href="~/home/registrar">Nuevo comprobante</a>
+    Comprobantes
+</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th style="width:140px">Total</th>
+            <th style="width:140px">Creado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>
+                    @Html.ActionLink(m.Cliente, "detalle", new { id = m.id })
+                </td>
+                <td class="text-right">@string.Format("{0:c}", m.Total)</td>
+                <td class="text-right">@m.Creado.ToString("dd-MM-yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
